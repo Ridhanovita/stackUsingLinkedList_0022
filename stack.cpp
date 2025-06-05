@@ -31,4 +31,5 @@ public:
     {
         Node *newNode = new Node(); //1.Allocate memory for the new node
         newNode->data = value; //2.assign value
-       
+        newNode->next = top; //3.sent the next pointer of the new node to the current top node
+        
